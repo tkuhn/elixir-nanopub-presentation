@@ -1,0 +1,178 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Semantic micro-contributions with decentralized nanopublication services</title>
+<link rel="stylesheet" href="dist/reset.css">
+<link rel="stylesheet" href="dist/reveal.css">
+<link rel="stylesheet" href="dist/theme/whitex.css">
+<style>
+.nanopub { text-align: left; margin: 20px; font-family: monaco,monospace; font-size: 10pt; color: #444; margin: 0 0 30px 0; padding: 0px 10px 10px 10px; border-radius: 10px; border: solid; border-width: 1px; }
+.nanopub a { color: #000; text-decoration: none; }
+.nanopub a:hover { color: #666; }
+.nanopub-prefixes { margin-top: 10px; }
+.nanopub-head { background: #e8e8e8; padding: 10px; margin-top: 10px; border-radius: 10px; }
+.nanopub-assertion { background: #99ccff; padding: 10px; margin-top: 10px; border-radius: 10px; }
+.nanopub-provenance { background: #f3a08c; padding: 10px; margin-top: 10px; border-radius: 10px; }
+.nanopub-pubinfo { background: #ffff66; padding: 10px; margin-top: 10px; border-radius: 10px; }
+</style>
+</head>
+
+<body>
+<div class="reveal">
+<div class="slides">
+
+<section>
+<h2><span class="cem">Semantic micro-contributions with decentralized nanopublication services</span></h2>
+<p>
+<strong>Tobias Kuhn</strong><br>
+VU Amsterdam
+<br>
+<small><a href="http://www.tkuhn.org">http://www.tkuhn.org</a></small>
+</p>
+<p>11 June 2021</p>
+<small>
+<p>Kuhn T, Taelman R, Emonet V, Antonatos H, Soiland-Reyes S, Dumontier M. 2021. Semantic micro-contributions with decentralized nanopublication services. PeerJ Computer Science 7:e387 <a href="https://doi.org/10.7717/peerj-cs.387">https://doi.org/10.7717/peerj-cs.387</a></p>
+</small>
+</section>
+
+<section>
+<h3><span class="cem">Motivation:</span> Easy and Quick Publishing Small Linked Data Contributions</h3>
+<ul>
+<li>Contributions that can also be <span class="cem2">original or personal</span>
+  <ul>
+  <li>e.g. new scientific findings or opinions</li>
+  <li>they don't fit in resources like WikiData</li>
+  </ul>
+<li>A bit like a <span class="cem2">semantic</span> version of Twitter</li>
+<li>But fully <span class="cem2">decentralized</span></li>
+<li>With support for <span class="cem2">larger datasets</span></li>
+</ul>
+</section>
+
+<section>
+<h3>Nanopublication</h3>
+<img class="plain stretch" src="img/nanopub.svg"/>
+</section>
+
+<section data-transition="slide-in">
+<h3>Architecture of Approach</h3>
+<img class="plain stretch" src="img/architecture1.svg"/>
+</section>
+
+<section data-transition="none">
+<h3>Architecture of Approach</h3>
+<img class="plain stretch" src="img/architecture2.svg"/>
+</section>
+
+<section data-transition="none">
+<h3>Architecture of Approach</h3>
+<img class="plain stretch" src="img/architecture3.svg"/>
+</section>
+
+<section data-transition="none">
+<h3>Architecture of Approach</h3>
+<img class="plain stretch" src="img/architecture.svg"/>
+</section>
+
+<section>
+<h3>Template-Based Publishing with Nanobench</h3>
+<img class="plain stretch" src="img/nanobench1.png"/>
+</section>
+
+<section>
+<h3>Template-Based Publishing with Nanobench</h3>
+<img class="plain stretch" src="img/nanobench2.png"/>
+</section>
+
+<section>
+<h3>Templates are Nanopublications too!</h3>
+<img class="plain stretch" src="img/template.png"/>
+</section>
+
+<section>
+<h3>Template Template</h3>
+<img class="plain stretch" src="img/template-template.png"/>
+</section>
+
+<section data-transition="slide-in">
+<img class="plain stretch" src="img/architecture.svg"/>
+</section>
+
+<section data-transition="none">
+<img class="plain stretch" src="img/architecture-user.svg"/>
+</section>
+
+<section>
+<h3>Usability Study Results</h3>
+<ul>
+<li><span class="cem">Task:</span> Install and set up Nanobench and publish nanopublications</li>
+<li>Overall SUS score of <span class="cem2">77.76</span> (above average, between "good" and "excellent")</li>
+<li><span class="cem">→</span> Nanobench makes it easy for users to publish digitally signed contributions</li>
+</ul>
+</section>
+
+<section data-transition="slide-in">
+<img class="plain stretch" src="img/architecture.svg"/>
+</section>
+
+<section data-transition="none">
+<img class="plain stretch" src="img/architecture-network.svg"/>
+</section>
+
+<section>
+<h3>Server Network</h3>
+<img class="plain stretch" src="img/monitor.png"/>
+</section>
+
+<section>
+<h3>grlc-based Services</h3>
+<img class="plain stretch" src="img/nanopub-api.png"/>
+</section>
+
+<section>
+<h3>grlc-based Services</h3>
+<img style="width: 49%; vertical-align: top;" class="plain" src="img/grlc.png"/>
+<img style="width: 49%; vertical-align: top;" class="plain" src="img/tapas.png"/>
+</section>
+
+<section>
+<h3>LDF-based Services</h3>
+<img class="plain stretch" src="img/ldf.png"/>
+</section>
+
+<section>
+<h3>LDF-based Services</h3>
+<img class="plain stretch" src="img/comunica.png"/>
+</section>
+
+<section>
+<h3>Performance Evaluation:<br/>Query Outcomes</h3>
+<img class="plain stretch" src="img/performance-results.svg"/>
+<p>(6 server instances in 5 countries for each type)</p>
+</section>
+
+<section>
+<h3>Performance Evaluation:<br/>Execution Times (in seconds)</h3>
+<img class="plain stretch" src="img/exectimes.png"/>
+</section>
+
+<section>
+<h3>Some Early Uptake</h3>
+<ul>
+<li><span class="cem">49 templates published</span>, plus earlier versions thereof (by 7 distinct users)</li>
+<li><span class="cem">118 registered users</span> (includes a few duplicates)</li>
+<li><span class="cem">Third-party usage</span> by project at Maastricht University and GO FAIR Foundation</li>
+</ul>
+</section>
+
+<section>
+<h3><span class="cem">Thank you for Your Attention!</span></h3>
+</section>
+
+</div>
+</div>
+
+<script src="dist/reveal.js"></script>
+<script src="init.js"></script>
+</body>
+</html>

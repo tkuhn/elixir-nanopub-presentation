@@ -1,0 +1,3 @@
+Reveal.initialize({
+  hash: true
+});
